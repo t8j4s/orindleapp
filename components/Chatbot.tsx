@@ -74,34 +74,21 @@ export function Chatbot() {
     setError(null);
 
     try {
-      let replyText = "";
-      // @ts-ignore
-      if (typeof window !== "undefined" && window.puter && window.puter.ai) {
-        // Construct prompt with history
-        const promptText = `System: You are Orindle's AI assistant. Answer queries about websites, WhatsApp lead system, pricing, services, and free demo homepage for local businesses.\n\n` + newMessages.map(m => `${m.role === 'user' ? 'User' : 'Assistant'}: ${m.content}`).join('\n') + `\nAssistant:`;
-        
-        // @ts-ignore
-        const response = await window.puter.ai.chat(promptText);
-        replyText = response.message ? response.message.content : (typeof response === "string" ? response : response.toString());
-      } else {
-        const response = await fetch("/api/chatbot", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ messages: newMessages }),
-        });
+      const response = await fetch("/api/chatbot", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ messages: newMessages }),
+      });
 
-        const data = await response.json();
+      const data = await response.json();
 
-        if (!response.ok) {
-          throw new Error(data.error || "Failed to get response");
-        }
-        
-        replyText = data.reply;
+      if (!response.ok) {
+        throw new Error(data.error || "Failed to get response");
       }
 
-      setMessages((prev) => [...prev, { role: "assistant", content: replyText }]);
+      setMessages((prev) => [...prev, { role: "assistant", content: data.reply }]);
     } catch (err: any) {
       setError(err.message || "An error occurred");
       // Add a fallback message
