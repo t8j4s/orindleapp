@@ -10,7 +10,7 @@ export function Footer() {
         <div className="grid gap-10 md:grid-cols-4 md:gap-8">
           <div className="md:col-span-1">
              <Link href="/" className="mb-4 flex items-center space-x-2">
-                <Image src="/favicon.svg" alt="Orindle Logo" width={24} height={24} className="h-6 w-6 rounded-md object-contain" />
+                <Image src="/logo.png" alt="Orindle Logo" width={32} height={32} className="h-8 w-8 rounded-md object-contain" />
                 <span className="font-heading text-lg font-bold tracking-tight text-gray-900">Orindle</span>
               </Link>
             <p className="text-[13px] text-gray-500 max-w-[200px] mb-6">
