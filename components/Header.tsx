@@ -15,7 +15,7 @@ export function Header() {
       <div className="mx-auto flex h-[52px] max-w-6xl items-center justify-between px-4 md:px-6">
         <div className="flex items-center gap-6">
           <Link href="/" className="flex items-center space-x-2">
-            <Image src="/logo.png" alt="Orindle Logo" width={32} height={32} className="h-8 w-8 rounded-md object-contain" />
+            <Image src="/favicon.svg" alt="Orindle Logo" width={24} height={24} className="h-6 w-6 rounded-md object-contain" />
             <span className="font-heading text-lg font-bold tracking-tight text-gray-900">Orindle</span>
           </Link>
           <nav className="hidden items-center gap-5 md:flex">
