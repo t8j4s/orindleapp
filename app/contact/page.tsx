@@ -7,12 +7,12 @@ export const metadata = {
   title: 'Contact Orindle - Get Your Free Demo Website',
   description: 'Contact Orindle in Pune for a free, custom-designed mobile-first demo website for your local business. Connect via WhatsApp or email to start.',
   alternates: {
-    canonical: 'https://www.orindle.com/contact',
+    canonical: 'https://orindle.com/contact',
   },
   openGraph: {
     title: 'Contact Orindle - Get Your Free Demo Website',
     description: 'Contact Orindle in Pune for a free, custom-designed mobile-first demo website for your local business. Connect via WhatsApp or email to start.',
-    url: 'https://www.orindle.com/contact',
+    url: 'https://orindle.com/contact',
     type: 'website',
   },
   twitter: {
@@ -31,13 +31,13 @@ export default function ContactPage() {
           {
             "@type": "ContactPage",
             "name": "Contact Orindle",
-            "url": "https://www.orindle.com/contact"
+            "url": "https://orindle.com/contact"
           },
           {
             "@type": "BreadcrumbList",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.orindle.com/" },
-              { "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://www.orindle.com/contact" }
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://orindle.com/" },
+              { "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://orindle.com/contact" }
             ]
           }
         ]

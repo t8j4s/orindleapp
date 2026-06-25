@@ -15,12 +15,12 @@ export const metadata = {
   title: "Orindle - Website + WhatsApp Lead System for Local Businesses",
   description: "Get a mobile-first website connected with WhatsApp, Google Business Profile, reviews, lead forms, and local SEO. Orindle helps Indian local businesses capture more enquiries and stop losing leads.",
   alternates: {
-    canonical: "https://www.orindle.com/",
+    canonical: "https://orindle.com/",
   },
   openGraph: {
     title: "Orindle - Website + WhatsApp Lead System for Local Businesses",
     description: "Get a mobile-first website connected with WhatsApp, Google Business Profile, reviews, lead forms, and local SEO. Orindle helps Indian local businesses capture more enquiries and stop losing leads.",
-    url: "https://www.orindle.com/",
+    url: "https://orindle.com/",
     type: "website",
   },
   twitter: {
@@ -39,7 +39,7 @@ export default function Home() {
           {
             "@type": "Organization",
             "name": "Orindle",
-            "url": "https://www.orindle.com",
+            "url": "https://orindle.com",
             "email": "tejas@orindle.com",
             "telephone": "+91 90219 23579",
             "sameAs": [],
@@ -54,7 +54,7 @@ export default function Home() {
           {
             "@type": "LocalBusiness",
             "name": "Orindle",
-            "url": "https://www.orindle.com",
+            "url": "https://orindle.com",
             "email": "tejas@orindle.com",
             "telephone": "+91 90219 23579",
             "address": {
@@ -73,7 +73,8 @@ export default function Home() {
           {
             "@type": "WebSite",
             "name": "Orindle",
-            "url": "https://www.orindle.com",
+            "alternateName": "Orindle",
+            "url": "https://orindle.com/",
             "description": "Website and WhatsApp lead systems for Indian local businesses."
           },
           {
@@ -97,7 +98,7 @@ export default function Home() {
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://www.orindle.com/"
+                "item": "https://orindle.com/"
               }
             ]
           }

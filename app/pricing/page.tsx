@@ -8,12 +8,12 @@ export const metadata = {
   title: 'Pricing - Local Business Website & Lead System Plans',
   description: 'Simple pricing for Indian local businesses. Choose website, WhatsApp lead system, review request, local SEO, and monthly growth plans built to capture more enquiries.',
   alternates: {
-    canonical: 'https://www.orindle.com/pricing',
+    canonical: 'https://orindle.com/pricing',
   },
   openGraph: {
     title: 'Pricing - Local Business Website & Lead System Plans',
     description: 'Simple pricing for Indian local businesses. Choose website, WhatsApp lead system, review request, local SEO, and monthly growth plans built to capture more enquiries.',
-    url: 'https://www.orindle.com/pricing',
+    url: 'https://orindle.com/pricing',
     type: 'website',
   },
   twitter: {
@@ -63,8 +63,8 @@ export default function PricingPage() {
           {
             "@type": "BreadcrumbList",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.orindle.com/" },
-              { "@type": "ListItem", "position": 2, "name": "Pricing", "item": "https://www.orindle.com/pricing" }
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://orindle.com/" },
+              { "@type": "ListItem", "position": 2, "name": "Pricing", "item": "https://orindle.com/pricing" }
             ]
           }
         ]

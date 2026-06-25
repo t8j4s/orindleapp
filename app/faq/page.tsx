@@ -8,12 +8,12 @@ export const metadata = {
   title: 'FAQ - Questions About Orindle Websites & Lead Systems',
   description: 'Frequently asked questions about Orindle’s mobile-first websites, WhatsApp lead automation, pricing, Google Business optimization, and local SEO services for Indian businesses.',
   alternates: {
-    canonical: 'https://www.orindle.com/faq',
+    canonical: 'https://orindle.com/faq',
   },
   openGraph: {
     title: 'FAQ - Questions About Orindle Websites & Lead Systems',
     description: 'Frequently asked questions about Orindle’s mobile-first websites, WhatsApp lead automation, pricing, Google Business optimization, and local SEO services for Indian businesses.',
-    url: 'https://www.orindle.com/faq',
+    url: 'https://orindle.com/faq',
     type: 'website',
   },
   twitter: {
@@ -55,8 +55,8 @@ export default function FAQPage() {
           {
             "@type": "BreadcrumbList",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.orindle.com/" },
-              { "@type": "ListItem", "position": 2, "name": "FAQ", "item": "https://www.orindle.com/faq" }
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://orindle.com/" },
+              { "@type": "ListItem", "position": 2, "name": "FAQ", "item": "https://orindle.com/faq" }
             ]
           }
         ]
