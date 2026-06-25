@@ -48,14 +48,6 @@ export function Footer() {
           <p className="text-center text-[12px] text-gray-400">
             © {new Date().getFullYear()} Orindle. All rights reserved.
           </p>
-          <div className="flex items-center gap-4">
-             <Button variant="ghost" size="sm" className="text-[11px] text-gray-500" asChild>
-                <Link href="/privacy">Privacy</Link>
-             </Button>
-             <Button variant="ghost" size="sm" className="text-[11px] text-gray-500" asChild>
-                <Link href="/terms">Terms</Link>
-             </Button>
-          </div>
         </div>
       </div>
     </footer>

@@ -6,12 +6,12 @@ export const metadata = {
   title: 'Services - Website, WhatsApp Leads, Local SEO & Automation',
   description: 'Explore Orindle’s services including mobile-first website development, WhatsApp lead capture, Google Business Profile optimization, review request systems, local SEO, and AI automation for local businesses.',
   alternates: {
-    canonical: 'https://www.orindle.com/services',
+    canonical: 'https://orindle.com/services',
   },
   openGraph: {
     title: 'Services - Website, WhatsApp Leads, Local SEO & Automation',
     description: 'Explore Orindle’s services including mobile-first website development, WhatsApp lead capture, Google Business Profile optimization, review request systems, local SEO, and AI automation for local businesses.',
-    url: 'https://www.orindle.com/services',
+    url: 'https://orindle.com/services',
     type: 'website',
   },
   twitter: {
@@ -91,8 +91,8 @@ export default function ServicesPage() {
           {
             "@type": "BreadcrumbList",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.orindle.com/" },
-              { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.orindle.com/services" }
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://orindle.com/" },
+              { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://orindle.com/services" }
             ]
           }
         ]

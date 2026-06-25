@@ -18,7 +18,7 @@ export default function TermsPage() {
           {
             "@type": "WebPage",
             "name": "Terms and Conditions",
-            "url": "https://www.orindle.com/terms"
+            "url": "https://orindle.com/terms"
           }
         ]
       }} />

@@ -8,12 +8,12 @@ export const metadata = {
   title: 'Industries - Websites for Plumbers, Clinics, Salons & More',
   description: 'Orindle builds lead generation websites and WhatsApp systems for local service businesses in India, including plumbers, electricians, clinics, interior designers, and more.',
   alternates: {
-    canonical: 'https://www.orindle.com/industries',
+    canonical: 'https://orindle.com/industries',
   },
   openGraph: {
     title: 'Industries - Websites for Plumbers, Clinics, Salons & More',
     description: 'Orindle builds lead generation websites and WhatsApp systems for local service businesses in India, including plumbers, electricians, clinics, interior designers, and more.',
-    url: 'https://www.orindle.com/industries',
+    url: 'https://orindle.com/industries',
     type: 'website',
   },
   twitter: {
@@ -47,13 +47,13 @@ export default function IndustriesPage() {
           {
             "@type": "CollectionPage",
             "name": "Industries We Serve",
-            "url": "https://www.orindle.com/industries"
+            "url": "https://orindle.com/industries"
           },
           {
             "@type": "BreadcrumbList",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.orindle.com/" },
-              { "@type": "ListItem", "position": 2, "name": "Industries", "item": "https://www.orindle.com/industries" }
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://orindle.com/" },
+              { "@type": "ListItem", "position": 2, "name": "Industries", "item": "https://orindle.com/industries" }
             ]
           }
         ]

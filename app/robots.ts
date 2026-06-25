@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/', '/admin/'],
     },
-    sitemap: 'https://www.orindle.com/sitemap.xml',
-    host: 'https://www.orindle.com',
+    sitemap: 'https://orindle.com/sitemap.xml',
+    host: 'https://orindle.com',
   };
 }

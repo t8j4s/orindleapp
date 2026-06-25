@@ -7,12 +7,12 @@ export const metadata = {
   title: 'How It Works - From Demo to Launch | Orindle',
   description: 'See how Orindle builds your local business website and WhatsApp lead system. From a free custom demo to launch and monthly growth optimization.',
   alternates: {
-    canonical: 'https://www.orindle.com/how-it-works',
+    canonical: 'https://orindle.com/how-it-works',
   },
   openGraph: {
     title: 'How It Works - From Demo to Launch | Orindle',
     description: 'See how Orindle builds your local business website and WhatsApp lead system. From a free custom demo to launch and monthly growth optimization.',
-    url: 'https://www.orindle.com/how-it-works',
+    url: 'https://orindle.com/how-it-works',
     type: 'website',
   },
   twitter: {
@@ -92,8 +92,8 @@ export default function HowItWorksPage() {
           {
             "@type": "BreadcrumbList",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.orindle.com/" },
-              { "@type": "ListItem", "position": 2, "name": "How It Works", "item": "https://www.orindle.com/how-it-works" }
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://orindle.com/" },
+              { "@type": "ListItem", "position": 2, "name": "How It Works", "item": "https://orindle.com/how-it-works" }
             ]
           }
         ]

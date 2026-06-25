@@ -8,12 +8,12 @@ export const metadata = {
   title: 'Results - WhatsApp Lead System Case Studies | Orindle',
   description: 'See how Indian local businesses increase WhatsApp enquiries, get more Google reviews, and rank higher on local search with Orindle’s mobile-first website systems.',
   alternates: {
-    canonical: 'https://www.orindle.com/results',
+    canonical: 'https://orindle.com/results',
   },
   openGraph: {
     title: 'Results - WhatsApp Lead System Case Studies | Orindle',
     description: 'See how Indian local businesses increase WhatsApp enquiries, get more Google reviews, and rank higher on local search with Orindle’s mobile-first website systems.',
-    url: 'https://www.orindle.com/results',
+    url: 'https://orindle.com/results',
     type: 'website',
   },
   twitter: {
@@ -39,13 +39,13 @@ export default function ResultsPage() {
           {
             "@type": "WebPage",
             "name": "Results & Case Studies",
-            "url": "https://www.orindle.com/results"
+            "url": "https://orindle.com/results"
           },
           {
             "@type": "BreadcrumbList",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.orindle.com/" },
-              { "@type": "ListItem", "position": 2, "name": "Results", "item": "https://www.orindle.com/results" }
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://orindle.com/" },
+              { "@type": "ListItem", "position": 2, "name": "Results", "item": "https://orindle.com/results" }
             ]
           }
         ]

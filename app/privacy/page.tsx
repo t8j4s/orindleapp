@@ -18,7 +18,7 @@ export default function PrivacyPage() {
           {
             "@type": "WebPage",
             "name": "Privacy Policy",
-            "url": "https://www.orindle.com/privacy"
+            "url": "https://orindle.com/privacy"
           }
         ]
       }} />

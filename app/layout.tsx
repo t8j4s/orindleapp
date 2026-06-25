@@ -16,7 +16,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.orindle.com'),
+  metadataBase: new URL('https://orindle.com'),
   title: {
     template: '%s | Orindle',
     default: 'Orindle - Website + WhatsApp Lead System for Local Businesses',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     type: 'website',
     siteName: 'Orindle',
     locale: 'en_IN',
-    url: 'https://www.orindle.com',
+    url: 'https://orindle.com',
     title: 'Orindle - Website + WhatsApp Lead System for Local Businesses',
     description: 'Mobile-first websites, WhatsApp lead systems, review requests, Google Business Profile optimization, and local SEO for Indian local businesses.',
     images: [
