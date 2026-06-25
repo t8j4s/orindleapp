@@ -433,7 +433,6 @@ export default function Home() {
                 <div className="mt-2 text-[11px] text-gray-500 h-8">For small businesses starting online.</div>
                 <div className="my-4 border-b border-gray-50 pb-4">
                   <div className="text-[20px] font-bold text-gray-900">₹9,999 <span className="text-[12px] font-normal text-gray-500">setup</span></div>
-                  <div className="text-[13px] font-medium text-gray-600">+ ₹2,999/mo</div>
                 </div>
                 <ul className="flex flex-col gap-2.5 mb-6 flex-1">
                    {["1-page website", "WhatsApp button", "Contact form", "Google Maps", "Basic SEO", "Mobile-first design"].map((item, i) => (
@@ -456,7 +455,6 @@ export default function Home() {
                 <div className="mt-2 text-[11px] text-gray-500 h-8">Best for serious local businesses.</div>
                 <div className="my-4 border-b border-gray-100 pb-4">
                   <div className="text-[20px] font-bold text-gray-900">₹19,999 <span className="text-[12px] font-normal text-gray-500">setup</span></div>
-                  <div className="text-[13px] font-bold text-gray-900">+ ₹6,999/mo</div>
                 </div>
                 <ul className="flex flex-col gap-2.5 mb-6 flex-1">
                    {["5–8 page website", "WhatsApp lead system", "Review request system", "Google Profile config", "Targeted local SEO", "Monthly updates"].map((item, i) => (
@@ -476,7 +474,6 @@ export default function Home() {
                 <div className="mt-2 text-[11px] text-gray-500 h-8">Complete online dominance.</div>
                 <div className="my-4 border-b border-gray-50 pb-4">
                   <div className="text-[20px] font-bold text-gray-900">₹34,999 <span className="text-[12px] font-normal text-gray-500">setup</span></div>
-                  <div className="text-[13px] font-medium text-gray-600">+ ₹12,999/mo</div>
                 </div>
                 <ul className="flex flex-col gap-2.5 mb-6 flex-1">
                    {["10–15 page website", "WhatsApp automation", "Missed-call follow-up", "Lead dashboard", "Local SEO pages", "Monthly campaigns"].map((item, i) => (

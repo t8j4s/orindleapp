@@ -85,7 +85,6 @@ export default function PricingPage() {
                 <div className="mt-2 text-[12px] text-gray-500 h-10">For small businesses getting their first professional online footprint.</div>
                 <div className="my-6 border-b border-gray-100 pb-6">
                   <div className="text-[24px] font-bold text-gray-900">₹9,999 <span className="text-[13px] font-normal text-gray-500">setup</span></div>
-                  <div className="text-[14px] font-medium text-gray-600 mt-1">+ ₹2,999/month</div>
                 </div>
                 <ul className="flex flex-col gap-3 mb-8 flex-1">
                    {["Premium 1-page website", "WhatsApp floating button", "Basic Contact form", "Google Maps integration", "On-page SEO fundamentals", "Mobile-first & responsive", "Domain & Hosting included"].map((item, i) => (
@@ -113,7 +112,6 @@ export default function PricingPage() {
                 <div className="mt-2 text-[12px] text-gray-500 h-10">The complete system to capture and convert local leads consistently.</div>
                 <div className="my-6 border-b border-indigo-100 pb-6">
                   <div className="text-[24px] font-bold text-gray-900">₹19,999 <span className="text-[13px] font-normal text-gray-500">setup</span></div>
-                  <div className="text-[14px] font-bold text-indigo-700 mt-1">+ ₹6,999/month</div>
                 </div>
                 <ul className="flex flex-col gap-3 mb-8 flex-1">
                    {["Everything in Starter", "Up to 8 inner pages", "WhatsApp Lead Capture form", "Google Review Request Engine", "Google Profile configuration", "Targeted local SEO optimization", "Monthly performance report"].map((item, i) => (
@@ -133,7 +131,6 @@ export default function PricingPage() {
                 <div className="mt-2 text-[12px] text-gray-500 h-10">For established businesses looking to dominate their local market.</div>
                 <div className="my-6 border-b border-gray-100 pb-6">
                   <div className="text-[24px] font-bold text-gray-900">₹34,999 <span className="text-[13px] font-normal text-gray-500">setup</span></div>
-                  <div className="text-[14px] font-medium text-gray-600 mt-1">+ ₹12,999/month</div>
                 </div>
                 <ul className="flex flex-col gap-3 mb-8 flex-1">
                    {["Everything in Growth", "Up to 15 inner/service pages", "Missed-call SMS/WhatsApp follow-up", "Advanced Lead Dashboard", "Local SEO content expansion", "Monthly growth campaigns", "Priority 24/7 support"].map((item, i) => (
